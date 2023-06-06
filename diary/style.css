@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eca1a147;
+    /* display: flex; */
+    justify-content: justify;
+    align-items: center;
+    height: 100vh;
+    text-align:center;
+}
+
+label {
+    display: inline-block; 
+    width: 120px; 
+    text-align: right;
+    margin-right: 10px; 
+  }
+#mood {
+    width: 160px; 
+    height: 100px;
+  }
+
+  #location {
+    width: 160px; 
+    height: 20px;
+  }
+
+/* ul.grid li:before {
+ content: "";
+} */
+
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
